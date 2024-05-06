@@ -1,0 +1,111 @@
+body{
+    background-image: url(images/bluecircles.svg);
+    background-color: #c5c5c5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerClass{
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+    position: absolute;
+    width: 100%;
+}
+
+.banner h1 {
+    font-size: 2.1rem;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner{
+    /* font-size: 1rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 301px;
+    background-image: url(images/thedarkbluebgd.svg);
+    background-attachment: local;
+    background-blend-mode: darken;
+    border-radius: .1rem .1rem .1rem .1rem;
+    padding-top: 1px;
+}
+
+.subtext-banner{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: lowercase;
+    font-size: small;
+    background-color: #0a2b59;
+    padding: 2px;
+    color: white;
+}
+
+h2{
+    background-color: #0d1b73;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 4rem 4rem 4rem 4rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-shadow: 5px 5px 4px #585858;
+    box-shadow: 5px 5px 4px #2a2a2a;
+}
+
+.navigator a {
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    transition: .4s;
+    margin: 10px 5px 10px 10px;
+}
+
+.navigator>a:hover {
+    color: #959595;
+}
+
+
+.copyrigth{
+
+    position: fixed;
+}
+
+.conteiner{
+    background-color: #26267c;
+    padding: 1px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
+    text-shadow: 5px 5px 5px #101010;
+    color: white;
+}
+
+.copyright{
+    background-color: #26267c;
+    color: white;
+    padding: 45px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.saibamais{
+    background-color: #0a2b59;
+    display: block;
+    margin-left: auto;
+    width: fit-content;
+    color: white;
+    padding: 5px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    text-decoration: none;
+}
+
+.saibamais:hover{
+    background-color: #0077ff;
+    color: #ffffff;
+    transition: .4s;
+}
